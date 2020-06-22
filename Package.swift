@@ -7,7 +7,7 @@ let package = Package(
         .macOS(.v10_10),
         .iOS(.v11),
         .tvOS(.v9),
-        .watchOS(.v2)
+        .watchOS(.v3)
     ],
     products: [
         .library(name: "RxRealm", targets: ["RxRealm"])
